@@ -1,5 +1,9 @@
 # Improve-SINet-V2
-基于深度学习的伪装目标检测网络模型设计及实现
+基于深度学习的伪装目标检测网络模型设计及实现，本实验在SINet-V2基础上进行改进将原 SINet-V2
+模型中的 Res2Net50 主干网络替换为 PVTv2 主干网络；之后在纹理增强模块和解码器
+后引入改进的 CBAM 注意力机制；最后将 GRA 模块的静态分组调整为动态分组方式，
+并优化损失函数。此外，设计了一个 GUI
+图形化交互界面，方便用户直观地评测伪装目标的检测效果。
 # 数据集
 采用主流的四个数据集COD10K、CAMO、CHAMELEON 和 NC4K，数据集下载链接（百度网盘版）：通过网盘分享的文件：Dataset
 链接: https://pan.baidu.com/s/159VrPMukt1Zii8ckx4rAuA?pwd=kduw 提取码: kduw
